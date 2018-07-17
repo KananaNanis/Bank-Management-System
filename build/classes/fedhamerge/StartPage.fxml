@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPage" nodeOrientation="LEFT_TO_RIGHT" prefHeight="388.0" prefWidth="648.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fedhamerge.StartPageController">
+    <stylesheets>
+        <URL value="@startpage.css" />
+    </stylesheets>
+   <children>
+      <MenuBar fx:id="menuBar1" prefHeight="45.0" prefWidth="91.0">
+        <menus>
+          <Menu fx:id="menu1" mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="menuItemClose" mnemonicParsing="false" onAction="#actionItemClose" text="Close" />
+                <MenuItem mnemonicParsing="false" onAction="#actionItemVersion" text="Version" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label fx:id="theName" layoutX="94.0" layoutY="30.0" prefHeight="43.0" prefWidth="243.0" stylesheets="@startpage.css" text="FEDHA BANK" textFill="#bc1919">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <MenuBar fx:id="menuBar2" layoutX="526.0" prefHeight="43.0" prefWidth="121.0">
+        <menus>
+            <Menu fx:id="menu2" mnemonicParsing="false" text="Account">
+              <items>
+                  <MenuItem fx:id="menuItemLogIn" mnemonicParsing="false" onAction="#actionItemLogIn" text="Log In" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Label fx:id="welcome" layoutX="6.0" layoutY="95.0" prefHeight="47.0" prefWidth="164.0" text="Welcome ">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#54e80a" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="bankEasily" layoutX="36.0" layoutY="142.0" text="Bank Easily">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#54e80a" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

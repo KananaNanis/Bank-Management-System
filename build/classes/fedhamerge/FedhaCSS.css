@@ -1,0 +1,235 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 23, 2017, 9:25:01 AM
+    Author     : Study
+*/
+.mainFxmlClass {
+-fx-alignment:	CENTER;
+/*-fx-background-color:gray;*/
+-fx-text-fill:	white;
+-fx-background-image: url("Bank4.jpeg");
+-fx-font-family: "serif";
+
+}
+#loginForm{
+    -fx-background-color: gray;
+    -fx-background-image: url("Bank4.jpeg");
+    
+}
+#bankName{
+    -fx-text-fill: black;
+    -fx-font-size: 35pt;
+    
+}
+#MyuserName{
+    -fx-font-size: 14pt;
+    -fx-text-fill: orange;
+}
+
+#Mypassword{
+    -fx-font-size: 14pt;
+    -fx-text-fill: orange;
+}
+#loginBtn{
+    -fx-background-color: green;
+    -fx-font-size: 14pt;
+}
+#registerBtn{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
+#registrationFormAnchor{
+    -fx-background-color: gray;
+
+}
+#c_password{
+   -fx-font-size: 14pt; 
+}
+#signupBtn{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
+#backBtn{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
+#userName2{
+    -fx-font-size: 14pt;
+}
+#password2{
+    -fx-font-size: 14pt;
+}
+#backBtnDeposits{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
+#cashDepositsTable{
+    
+}
+#cashDepositAnchor{
+    -fx-background-image: url("Bank4.jpeg");
+}
+#backBtnTransfers{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
+#cashTransferAnchor{
+    -fx-background-image: url("Bank4.jpeg");
+
+}
+#backBtnWithdrawals{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
+#cashWithdrawalAnchor{
+    -fx-background-image: url("Bank4.jpeg");
+
+}
+#userType{
+    -fx-font-size: 14pt;
+}
+#usertype{
+   -fx-font-size: 14pt; 
+}
+#adminAnchorPane{
+    -fx-background-image: url("Bank4.jpeg");
+}
+
+#btnBackAdminHome{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+    
+}
+
+#cashOfBegginingsAnchor{
+    -fx-background-image: url("Bank4.jpeg");
+}
+
+#backCashOfBegnsbtn{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
+#saveBtn{
+    -fx-background-color: orange;
+    -fx-font-size: 14pt;
+}
+#cashWithdrawalAnchor{
+     -fx-background-image: url("Bank4.jpeg");
+}
+#backBtnWithdrawals{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
+#backAdminbtn{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+    
+}
+#tellerHome{
+    -fx-background-image: url("Bank4.jpeg");
+}
+#checkValidation{
+   -fx-font-size: 12pt; 
+   -fx-text-fill: red;
+}
+
+#checkPassword{
+    -fx-font-size: 12pt; 
+   -fx-text-fill: red;
+}
+#anchorPane2{
+    -fx-background-color: #33cccc;
+}
+#userRecordsAnchor{
+    -fx-background-image: url("Bank4.jpeg");
+}
+#btnBackUsersRecords{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
+#btnAdd{
+   -fx-background-color: #009933;
+    -fx-font-size: 14pt; 
+}
+#btnUpdate{
+    -fx-background-color: #009933;
+    -fx-font-size: 14pt;
+}
+#btnDelete{
+    -fx-background-color: #009933;
+    -fx-font-size: 14pt;
+}
+#clientsAnchor{
+    -fx-background-image: url("Bank4.jpeg");
+}
+#editBtn{
+    -fx-background-color: #009933;
+    -fx-font-size: 14pt;
+}
+#addBtn{
+    -fx-background-color: #009933;
+    -fx-font-size: 14pt;
+}
+#deleteBtn{
+    -fx-background-color: #009933;
+    -fx-font-size: 14pt;
+}
+#backClientsBtn{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
+#transferScreenAnchor{
+    -fx-background-image: url("Bank4.jpeg");
+}
+#btnCancel{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
+#btnDone{
+    -fx-background-color: #009933;
+    -fx-font-size: 14pt;
+}
+#anchorDeposit{
+    -fx-background-image: url("Bank4.jpeg");
+}
+#anchorWithdraw{
+    -fx-background-image: url("Bank4.jpeg");
+}
+#btnTransfer{
+    -fx-font-size: 14pt;
+}
+#btnDeposit{
+    -fx-font-size: 14pt;
+}
+#btnWithdrawal{
+    -fx-font-size: 14pt;
+}
+#userRecords{
+    -fx-background-image: url("Bank4.jpeg");
+}
+#editAnchor{
+    -fx-background-image: url("Bank4.jpeg");
+}
+#updateUserInfo{
+    -fx-background-color: #009933;
+    -fx-font-size: 14pt;
+}
+#cancelInfoID{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
+#addAnchor{
+    -fx-background-image: url("Bank4.jpeg");
+}
+#addInfoID{
+    -fx-background-color: #009933;
+    -fx-font-size: 14pt;
+}
+#cancelID{
+    -fx-background-color: #33cccc;
+    -fx-font-size: 14pt;
+}
